@@ -1,7 +1,7 @@
 #include "main.h"
 /**
-*print _alphabet - print alphabets in lowercase                                                                                                     
-*
+*print _alphabet - print alphabets in lowercase
+*@c is a constant
 **/
 void print_alphabets(void)                                                                                                                             
 {                                                                                                                                                      
@@ -9,6 +9,6 @@ void print_alphabets(void)
 	
  	for (c = 'a'; c <= 'z'; c++);
 	_putchar(c);
- 	_putchar('\n') 
+ 	_putchar('\n'); 
 }
 
